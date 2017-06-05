@@ -8,19 +8,17 @@ def _is_dict_same(expected, actual):
     temp = True
     for key in expected:
         if key not in actual.keys():
-            # miss += 1
-            print(key, "not present")
+            print(key, "not present\n")
+            if isinstance(expected[key],str):
+                miss+=1
+            else:
+                miss+=len(expected[key])
             temp = False
-            # have to change order
-            # are_same_flag, stack = _are_same(actual[key], expected[key], ignore_value_of_keys)
+
         else:
             are_same_flag = _are_same(expected[key], actual[key])
             if not are_same_flag:
-                # print("Expected : ",expected[key])
-                # print("Actual : ",actual[key])
-                print("different values in ", key)
-
-                # miss += 1
+                print("different values in ", key,"\n")
 
     return temp
 
@@ -28,53 +26,58 @@ def _is_dict_same(expected, actual):
 def _is_list_same(expected, actual):
     global hit, miss
     temp = True
+    if len(expected) > len(actual):
+        print("Expected : ", len(expected))
+        print("Actual : ", len(actual))
+        print("length not same\n")
+
     for i in range(len(expected)):
-        if not _are_same(expected[i], actual[i]):
+        if isinstance(expected[i],(str,int)) and expected[i] in actual:
+            hit+=1
+        elif type(expected[i])==list and expected[i] in actual:
+            if _is_list_same(expected[i],actual[actual.index(expected[i])]):
+                hit+=1
+            else:
+                temp=False
+        elif type(expected[i]) == dict:
+            if expected[i] in actual:
+                hit+=1
+            else:
+                miss+=len(expected[i])
+                print("length of dict not same")
+        else:
             temp = False
+            miss+=1
             print("miss at", i)
-
     return temp
-
 
 def _are_same(expected, actual):
     global hit, miss
 
     # Ensure they are of same type
     if type(expected) != type(actual):
-        miss += 1
+        miss+=len(expected)
         print("Expected : ", type(expected))
         print("Actual : ", type(actual))
         print("type mismatch\n\n")
         return False
 
     # Compare primitive types immediately
-    if type(expected) in (int, str, bool, float):
+    if isinstance(expected,(int, str, bool, float)):
         if expected == actual:
             hit += 1
             return True
         else:
-            miss += 1
-            print("value mismatch")
+            miss+=1
+            print("value mismatch\n")
             return False
 
     else:
-        # Ensure collections has same length
-        temp = True
-        if len(expected) != len(actual):
-            miss += abs(len(expected) - len(actual))
-            print("Expected : ", len(expected))
-            print("Actual : ", len(actual))
-            print("length not same\n\n")
-            temp = False
-            # return False
-
         if isinstance(expected, dict):
             return _is_dict_same(expected, actual)
 
-        if isinstance(expected, list) and not temp and len(expected) < len(actual):
+        if isinstance(expected, list):
             return _is_list_same(expected, actual)
-        else:
-            return _is_list_same(actual, expected)
 
     return False
 
