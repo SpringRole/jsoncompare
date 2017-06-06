@@ -1,18 +1,24 @@
 import json
+from itertools import repeat
 
 hit = 0
 miss = 0
+actual_match=[]
 
 def _is_dict_same(expected, actual):
-    global hit, miss
+    global hit, miss,actual_match
     temp = True
     for key in expected:
         if key not in actual.keys():
             print(key, "not present\n")
             if isinstance(expected[key],str):
                 miss+=1
+                actual_match.append(0)
+                print(">>>>>>",1)
             else:
                 miss+=len(expected[key])
+                #print(">>>>>>*",expected[key])
+                actual_match.extend(repeat(0,len(expected[key])))
             temp = False
 
         else:
@@ -24,7 +30,7 @@ def _is_dict_same(expected, actual):
 
 
 def _is_list_same(expected, actual):
-    global hit, miss
+    global hit, miss,actual_match
     temp = True
     if len(expected) > len(actual):
         print("Expected : ", len(expected))
@@ -34,29 +40,39 @@ def _is_list_same(expected, actual):
     for i in range(len(expected)):
         if isinstance(expected[i],(str,int)) and expected[i] in actual:
             hit+=1
+            actual_match.append(1)
         elif type(expected[i])==list and expected[i] in actual:
             if _is_list_same(expected[i],actual[actual.index(expected[i])]):
                 hit+=1
+                actual_match.append(1)
             else:
                 temp=False
         elif type(expected[i]) == dict:
             if expected[i] in actual:
                 hit+=1
+                actual_match.append(1)
             else:
                 miss+=len(expected[i])
+                print(">>>>>>**",len(expected[i]))
+                actual_match.extend(repeat(0, len(expected[i])))
                 print("length of dict not same")
         else:
             temp = False
             miss+=1
+            print(">>>>**",1)
+            actual_match.append(0)
             print("miss at", i)
     return temp
 
 def _are_same(expected, actual):
-    global hit, miss
+    global hit, miss,actual_match
 
     # Ensure they are of same type
     if type(expected) != type(actual):
         miss+=len(expected)
+        #print(expected)
+        print(">>**",len(expected))
+        actual_match.extend(repeat(0, len(expected)))
         print("Expected : ", type(expected))
         print("Actual : ", type(actual))
         print("type mismatch\n\n")
@@ -66,9 +82,12 @@ def _are_same(expected, actual):
     if isinstance(expected,(int, str, bool, float)):
         if expected == actual:
             hit += 1
+            actual_match.append(1)
             return True
         else:
             miss+=1
+            print(">>>>>>>>>**",1)
+            actual_match.append(1)
             print("value mismatch\n")
             return False
 
@@ -83,10 +102,10 @@ def _are_same(expected, actual):
 
 
 def are_same(original_a, original_b):
-    global hit, miss
+    global hit, miss,actual_match
     a = original_a
     b = original_b
-    return _are_same(a, b), ("miss", miss), ("hit", hit)
+    return _are_same(a, b), ("miss", miss), ("hit", hit),actual_match
 
 
 def json_are_same(a, b, ignore_list_order_recursively=False, ignore_value_of_keys=[]):
