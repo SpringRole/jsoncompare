@@ -10,21 +10,20 @@ def _is_dict_same(expected, actual):
     temp = True
     for key in expected:
         if key not in actual.keys():
-            print(key, "not present\n")
+            #print(key, "not present\n")
             if isinstance(expected[key],str):
                 miss+=1
                 actual_match.append(0)
-                print(">>>>>>",1)
             else:
                 miss+=len(expected[key])
-                #print(">>>>>>*",expected[key])
                 actual_match.extend(repeat(0,len(expected[key])))
             temp = False
 
         else:
             are_same_flag = _are_same(expected[key], actual[key])
             if not are_same_flag:
-                print("different values in ", key,"\n")
+                pass
+                #print("different values in ", key,"\n")
 
     return temp
 
@@ -32,10 +31,10 @@ def _is_dict_same(expected, actual):
 def _is_list_same(expected, actual):
     global hit, miss,actual_match
     temp = True
-    if len(expected) > len(actual):
-        print("Expected : ", len(expected))
-        print("Actual : ", len(actual))
-        print("length not same\n")
+    # if len(expected) > len(actual):
+    #     print("Expected : ", len(expected))
+    #     print("Actual : ", len(actual))
+    #     print("length not same\n")
 
     for i in range(len(expected)):
         if isinstance(expected[i],(str,int)) and expected[i] in actual:
@@ -48,20 +47,14 @@ def _is_list_same(expected, actual):
             else:
                 temp=False
         elif type(expected[i]) == dict:
-            if expected[i] in actual:
-                hit+=1
-                actual_match.append(1)
-            else:
-                miss+=len(expected[i])
-                print(">>>>>>**",len(expected[i]))
-                actual_match.extend(repeat(0, len(expected[i])))
-                print("length of dict not same")
+            if _is_dict_same(expected[i],actual[i]):
+                pass
+            #     print("dict not same")
         else:
             temp = False
             miss+=1
-            print(">>>>**",1)
             actual_match.append(0)
-            print("miss at", i)
+            #print("miss at", i)
     return temp
 
 def _are_same(expected, actual):
@@ -71,24 +64,22 @@ def _are_same(expected, actual):
     if type(expected) != type(actual):
         miss+=len(expected)
         #print(expected)
-        print(">>**",len(expected))
         actual_match.extend(repeat(0, len(expected)))
-        print("Expected : ", type(expected))
-        print("Actual : ", type(actual))
-        print("type mismatch\n\n")
+        # print("Expected : ", type(expected))
+        # print("Actual : ", type(actual))
+        # print("type mismatch\n\n")
         return False
 
     # Compare primitive types immediately
     if isinstance(expected,(int, str, bool, float)):
-        if expected == actual:
+        if expected.lower() == actual.lower():
             hit += 1
             actual_match.append(1)
             return True
         else:
             miss+=1
-            print(">>>>>>>>>**",1)
             actual_match.append(1)
-            print("value mismatch\n")
+            #print("value mismatch\n")
             return False
 
     else:
