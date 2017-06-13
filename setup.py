@@ -20,5 +20,5 @@ setup(
     packages = ['jsoncompare', 'jsoncompare.test'],
     test_suite = "jsoncompare.test.test_jsoncompare",
     keywords = 'json comparison compare order',
-    long_description = read_readme('README.md')
+    long_description = read_readme('README.md'), install_requires=['sklearn']
 )
