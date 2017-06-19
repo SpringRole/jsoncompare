@@ -1,4 +1,215 @@
 {
+  "phone": [
+    "3129784373"
+  ],
+  "sections": {
+    "skills": [
+      "A",
+      "AL",
+      "Active",
+      "Admin",
+      "Admissions",
+      "Advanced",
+      "Agile",
+      "Analyst",
+      "Apex",
+      "Auto",
+      "BIRT",
+      "Barista",
+      "Bash",
+      "C",
+      "C++",
+      "CE",
+      "CRM software",
+      "CSS",
+      "CTS",
+      "Career",
+      "Chicago",
+      "Computer Science",
+      "Consultancy Services",
+      "Conv",
+      "Coordinated",
+      "Create",
+      "Data Analytics",
+      "Data Structures",
+      "Data Warehousing",
+      "Database",
+      "Database Admin",
+      "Database Management",
+      "Dec",
+      "Develope",
+      "E-commerce",
+      "EX",
+      "Engineering",
+      "Entrepreneurship",
+      "Expert",
+      "F",
+      "GP",
+      "Go",
+      "Green",
+      "Groups",
+      "HTML",
+      "HTML5",
+      "IBM",
+      "IC",
+      "IIT",
+      "IP",
+      "India",
+      "Information Technology",
+      "Institute",
+      "Int",
+      "Intermediate",
+      "JAIN",
+      "JIRA",
+      "Languages",
+      "Lighthouse",
+      "Load",
+      "Management",
+      "Maximo",
+      "Messaging",
+      "Moto",
+      "Mumbai",
+      "MySQL",
+      "N",
+      "National",
+      "Oct",
+      "Office",
+      "Ope",
+      "Oracle",
+      "Oracle 11g",
+      "Oracle Database",
+      "Orient",
+      "P",
+      "PL/SQL",
+      "PR",
+      "PV",
+      "Part",
+      "Persistent",
+      "Present",
+      "Pro",
+      "Programming",
+      "Pune",
+      "QB",
+      "QC",
+      "QTP",
+      "Quality Assurance",
+      "R",
+      "RTM",
+      "Reduce",
+      "SQL",
+      "Selenium",
+      "Software Development",
+      "Software Engineering",
+      "System",
+      "Systems",
+      "TES",
+      "Technology",
+      "Technology Services",
+      "Testing",
+      "Toad",
+      "Tools",
+      "USA",
+      "VA",
+      "Vi",
+      "X"
+    ],
+    "education": [
+      {
+        "start-date": " 2014",
+        "score": "3.90/4.0",
+        "score-metric": "GPA",
+        "institution-name ": "Illinois Institute of Technology, Chicago, USA - ",
+        "end-date": " 2015",
+        "course": "Masters in Information Technology and Management:  ",
+        "location": ""
+      },
+      {
+        "start-date": " 2006",
+        "score": "",
+        "score-metric": "",
+        "institution-name ": "Rajiv Gandhi Proudyogiki Vishwavidhyalaya, India - ",
+        "end-date": " 2010",
+        "course": "Bachelor of Engineering in Computer Science ",
+        "location": ""
+      }
+    ],
+    "awards": "",
+    "projects": [
+      {
+        "start-date": "",
+        "description": "",
+        "project-name": "ACADEMIC  PROJECTS:",
+        "end-date": ""
+      },
+      {
+        "start-date": "",
+        "description": "Created  a relational  database  for  an  e-commerce  store  to  execute  SQL  queries  for  deep  customer  insights",
+        "project-name": "E-commerce  Querier  -",
+        "end-date": ""
+      },
+      {
+        "start-date": "",
+        "description": "-  Created  a coffee  shop  E-commerce  website  using  HTML5,  CSS",
+        "project-name": "Barista",
+        "end-date": ""
+      },
+      {
+        "start-date": "",
+        "description": "Developed  risk  management  plan,  analyzed  workloads  and  created  work  breakdown  structure  for  a case  study  on  failures  of  MotoX",
+        "project-name": "Moto  Alert-",
+        "end-date": ""
+      },
+      {
+        "start-date": "",
+        "description": "",
+        "project-name": "SKILLS:",
+        "end-date": ""
+      }
+    ],
+    "misc": "",
+    "work-experience": [
+      {
+        "designation": "           System   Analyst   at   Sodexo,   Lighthouse   Technology   Services,   Buffalo,   NY                                                                Nov'15      Present",
+        "job-description": "  o   Performed   impact   analysis   and   developed   testing   and  migration   documents   for   enhancements   and  change   requests   for   multiple   clients   of   IBM  Maximo   o   Created   QBR   reports   for   change   requests   and  enhancements   to   help   business   personnel   analyze  performance   matrix.                Junior   Systems   Analyst,   Office   of   Graduate   Admissions,   IIT,   Chicago                                                                                       Sep'14   -   Aug'15  ",
+        "company-name": "Sodexo, Lighthouse Technology",
+        "end-date": "present",
+        "start-date": "nov'15"
+      },
+      {
+        "designation": "           Junior   Systems   Analyst,   Office   of   Graduate   Admissions,   IIT,   Chicago                                                                                       Sep'14   -   Aug'15  ",
+        "job-description": "o   Implemented   an   incident   management   system   within   a  cloud-based   enterprise   CRM   software   o   Automated   data   manipulations   using   built-in   system   administrative   functions   and   custom   code(Apex)   o   Prepared   test   scenarios   and   test   cases   for   the   incident   management   system                Quality   Assurance   Analyst,   Persistent   Systems   Limited,   Pune,   India                                                                                        Feb'13   -   Dec'13  ",
+        "company-name": "Junior Systems Analyst, Office of Graduate",
+        "end-date": "aug'15",
+        "start-date": "sep'14"
+      },
+      {
+        "designation": "           Quality   Assurance   Analyst,   Persistent   Systems   Limited,   Pune,   India                                                                                        Feb'13   -   Dec'13  ",
+        "job-description": "o   Prepared   test   cases,   test   plan,   RTM   and   test   scripts   in   Bash   by   following   Agile   methodology   o   Analyzed   requirements   and   functional   specifications   for   change   requests   for   Openwave   Messaging   tool   o   Performed   functional   and   system   Testing   o   Reduced   resolution   time   of   open   tickets   in   JIRA   by   31%   o   Performed   load   and   performance   testing   using   (Pacmon)                Assistant   Systems   Engineer,   Tata   Consultancy   Services,   Mumbai,   India                                                                               Oct'10   -   Dec'11  ",
+        "company-name": "",
+        "end-date": "dec'13",
+        "start-date": "feb'13"
+      },
+      {
+        "designation": "           Assistant   Systems   Engineer,   Tata   Consultancy   Services,   Mumbai,   India                                                                               Oct'10   -   Dec'11  ",
+        "job-description": "o   Worked   as   an   Oracle   Database   Administrator   and   covered   tasks   from   design   to   maintenance   o   Interacted   with   clients   on-site   to   successfully   install,   monitor,   manage   and   test   their   databases   o   Participated   in   disaster   recovery   drill   and   setup   dataguard   as   a  part   of   business   continuity   plan    ",
+        "company-name": "",
+        "end-date": "dec'11",
+        "start-date": "oct'10"
+      }
+    ],
+    "extra-curricular": "",
+    "introduction": [
+      "AYUSHI\n                                            JAIN \n                                              123\n                                                S\n                                        Figueroa,\n                                              Apt\n                                            #433,\n                                              LA,\n                                            90012\n(312)-978-43actionURI(mailto:ayushijain8@gmail...\nactionURI(mailto:ayushijain8@gmail.com): ayush...\n        actionURI(mailto:ayushijain8@gmail.com):"
+    ],
+    "achievements": "LEADERSHIP:\n                \n        Convened\n              a \n        national\n           level\n     competition\n             for\n        National\nEntrepreneurship\n         Network\n             and\n       conducted\n      awareness \n          events\n             for\n         schools\n             and\n        society.\n     Coordinated\n         various\n            talk\n           shows\n              to\n         support\n        Go-Green\n           theme\n              in\n         Bhopal.\n                \n          Active\n          member\n              of\n          Career\n      management\n          Groups\n              to\n      facilitate\n          campus\n      recruiting\n              in\n           RGPV,\n         Bhopal.",
+    "summary": [
+      
+    ]
+  },
+  "email": [
+    "ayushijain8@gmail.com"
+  ]
+}{
 	"sections": {
 		"misc": "",
 		"projects": [

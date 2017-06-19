@@ -1,0 +1,99 @@
+{
+  "phone": [
+    "5404357365"
+  ],
+  "sections": {
+    "skills": [
+      "JavaScript",
+      "HTML/CSS",
+      "Ruby",
+      "Perl",
+      "Java",
+      "C#",
+      "APEX",
+      "Node.js",
+      "Django",
+      "Ruby on Rails",
+      ".NET",
+      "PHP",
+      "jQuery",
+      "Bootstrap",
+      "Backbone",
+      "AngularJS",
+      "MongoDB",
+      "MySQL",
+      "Microsoft SQL",
+      "IBM Domino",
+      "Jasmine",
+      "Karma",
+      "Mocha",
+      "Protractor",
+      "Selenium"
+    ],
+    "education": "",
+    "work-experience": [
+      {
+        "company-name": "Leading Path Consulting/USA Today",
+        "start-date": "April 2014",
+        "end-date": "present",
+        "job-description": "Currently, I am acting as a full-stack developer, building an enterprise application atop the MEAN.js boilerplate platform. Responsibilities cover everything from front-end development with Angular/Bootstrap to back-end REST-based service deployment and Mongo modeling. As the entire effort is Test-Driven Development focused, all work includes associated unit tests (Karma/Jasmine/Mocha) and e2e tests (Protractor).",
+        "designation": "Full-Stack Developer"
+      },
+      {
+        "company-name": "Aol, Inc.",
+        "start-date": "April 2013",
+        "end-date": "March 2014",
+        "job-description": "I provided principal web application development to support or replace many of Aol's legacy tools, assets, and customer-facing services. Although each project tended to be very diverse in terms of technologies used, the “usual suspects” included JavaScript (Backbone, jQuery, and Ajax + JSON), some Node.js, MongoDB, and MySQL",
+        "designation": "Account Executive"
+      },
+      {
+        "company-name": "Oracle Corporation (Eloqua)",
+        "start-date": "August 2012",
+        "end-date": "April 2013",
+        "job-description": "Provided principal test automation and QA direction for newly developed business applications and web-based marketing tools. Primary responsibilities included creating ground-up test cases and test automation for new products, providing frequent regression support and regression risk analysis, and serving as a QA lead for a then unreleased sales application. Developed and deployed new test automation suites into our Continuous Integration environment using Selenium, Ruby, and the Lebowski framework. Provided early showstopper detection through the creation of new smoke test scripts and nightly automation runs within our TeamCity environment",
+        "designation": "Software Developer in Test"
+      },
+      {
+        "company-name": "SENTEL Corporation",
+        "start-date": "February 2012",
+        "end-date": "July 2012",
+        "job-description": "As part of a contract to provide security support for the upcoming 2016 Summer Olympics, developed and test automated a platform for managing first responders. Due to the nature of the contract itself, I am unable to provide certain specifics, but I am able to say that I: Designed and developed a web-based platform largely driven by C# and C++ (i.e. .NET) as well as a mobile-based platform for the iOS and Android phones. Provided user acceptance automation and validation using Python and the Selenium framework.",
+        "designation": "Software Engineer, Intern"
+      },
+      {
+        "company-name": "Rosetta Stone",
+        "start-date": "May 2011",
+        "end-date": "August 2011",
+        "job-description": "Supported game content management through the development of new web-based tools and services. New applications allowed for the tracking, analyzing, and transforming of game assets through a web browser. Assisted in the designing and development of a web platform for content management; mitigated tracking utilities and their related log files to a web-accessible portal. Provided new asset tracking utilities by leveraging the Akamai Game Distribution framework. Oversaw the migration and archiving of Rosetta Stone's older language software and media.",
+        "designation": "Software Developer, Intern"
+      },
+      {
+        "company-name": "IBM, Research Triangle Park",
+        "start-date": "August 2010",
+        "end-date": "December 2010",
+        "job-description": "Using the Rational Functional Tester and Selenium frameworks, developed and maintained Java-based test automation for the Lotus Quickr platform. The provided automation simplified and eased the process of regressively testing new builds by automating user interaction. Served in Agile-managed teams of four, providing Continuous Integration of new test automation into the Quickr life cycle. Implemented new Java frameworks for the discovery, navigation, and management of HTML web components – doubling automation reliability and decreasing run time by roughly 10%. Applied new build and self-testing automation scripts, allowing incoming revisions to be tested automatically and without the need for developer supervision.",
+        "designation": "Automation Engineer, Co-op"
+      }
+    ],
+    "projects": [
+      {
+        "project-name": "Visualization Techniques in Java 3D",
+        "start-date": "August 2009",
+        "end-date": "December 2009",
+        "description": "Designed and implemented a Java Swing-based application to test the versatility of Oracle's Java 3D API while developing new techniques in data visualization. Under the supervision of a department professor, created and deployed a 3D model of the Mary Washington campus to serve as a canvas for organizing and displaying assorted sets of data. Designed and implemented an application in Swing to test the versatility of Sun’s Java 3D API while developing new techniques in data visualization. Created and deployed a 3D recreation of the Mary Washington campus, using it to visually organize and display the breakup of majors at our university."
+      },
+      {
+        "project-name": "iPhone Game Development",
+        "start-date": "January 2010",
+        "end-date": "May 2010",
+        "description": "As part of a state sponsored study in learning technology, developed a set of education-based games for the iPhone and iPod Touch. Worked closely with Hartwood Elementary staff in Fredericksburg, Virginia throughout development, specifically focusing on grades K-3. Ultimate goal of project was to improve Hartwood's performance on standardized state tests. Designed and produced two math and reading comprehension-focused games. Provided and integrated everything from the game mechanics to the games' media and assets. Final project received a $5,000 grant from the Pepsi Refresh Project and was featured in several local publications."
+      }
+    ],
+    "summary": "",
+    "achievements": ""
+  },
+  "name": "David J. Adams",
+  "email": [
+    "djadams2007@gmail.com"
+  ]
+}
