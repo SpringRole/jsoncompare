@@ -13,9 +13,11 @@ def _is_dict_same(expected, actual):
             #print(key, "not present\n")
             if isinstance(expected[key],str):
                 miss+=1
+                print("Missing :",key,"\n")
                 actual_match.append(0)
             else:
                 miss+=len(expected[key])
+                print("Missing :",key,"\n")
                 actual_match.extend(repeat(0,len(expected[key])))
             temp = False
 
@@ -53,6 +55,7 @@ def _is_list_same(expected, actual):
         else:
             temp = False
             miss+=1
+            print("Missing :",expected[i], "\n")
             actual_match.append(0)
             #print("miss at", i)
     return temp
@@ -62,7 +65,14 @@ def _are_same(expected, actual):
 
     # Ensure they are of same type
     if type(expected) != type(actual):
-        miss+=len(expected)
+        if type(expected)==str:
+            miss+=1
+        else:
+            miss += len(expected)
+        print("type mismatch")
+        print("Expected :",type(expected))
+        print("Actual :", type(actual),"\n")
+
         #print(expected)
         actual_match.extend(repeat(0, len(expected)))
         # print("Expected : ", type(expected))
@@ -72,12 +82,14 @@ def _are_same(expected, actual):
 
     # Compare primitive types immediately
     if isinstance(expected,(int, str, bool, float)):
-        if expected.lower() == actual.lower():
+        if expected.lower().strip().replace(" ","") == actual.lower().strip().replace(" ",""):
             hit += 1
             actual_match.append(1)
             return True
         else:
             miss+=1
+            print("Expected :",expected)
+            print("Actual :",actual,"\n")
             actual_match.append(1)
             #print("value mismatch\n")
             return False
