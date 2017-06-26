@@ -1,0 +1,82 @@
+{
+"name":"Danny Chhay",
+  "sections": {
+    "achievements": [],
+    "work-experience": [
+      {
+        "company-name": "Cyber Dust",
+        "end-date": "September 2015",
+        "designation": "iOS Developer",
+        "job-description": "https://itunes.apple.com/us/app/cyber-dust/id690158616?mt=8\n• Reduced redundancy by abstracting code and components\n• Contributed to best coding practices for ease of use, readability, and maintainability\n• Diagnosed and fixed difficult, obscure bugs\n• Refactored legacy code to conform to best practices\n• Maintained code for multiple versions of iOS",
+        "start-date": "April 2014"
+      },
+      {
+        "company-name": "Inside.com (formerly Mahalo.com)",
+        "end-date": "October 2013",
+        "designation": "iOS  Developer",
+        "job-description": "https://itunes.apple.com/us/artist/mahalo.com-incorporated/id331140855\n• App Store: Mahalo Video Apps, Pride & Prejudice Quick Notes, Chord Master!, MMA Surge 2.0\n• Maintained apps, debugged and updated code for newer versions of iOS\n• Built custom UI components natively",
+        "start-date": "March 2012"
+      },
+      {
+        "company-name": "",
+        "end-date": "present",
+        "designation": "iOS  Developer",
+        "job-description": "http://boxrabbit.wordpress.com/ ",
+        "start-date": " 2009"
+      }
+    ],
+    "projects": [
+      
+   ],
+    "introduction": [
+      "Danny \n                         Chhay\n                          6646\n                       Sylmar \n                           Ave\n                           Van\n                         Nuys,\n                            CA\n                         91405\n                        Phone:\n                        (213) \n                      375-4026\n                        Email:\n            DANCHHAY@GMAIL.COM\n                      Website:\nwww.linkedin.com/in/dannychhay"
+    ],
+    "misc": "",
+    "extra-curricular": [],
+    "summary": "\n     Expand\n   software\ndevelopment\n    skills,\n    explore\n    career \n     paths,\n        and\n      work \n         on\n    awesome\n   projects",
+    "skills": [
+      "ARC",
+      "App Store",
+      "Apps",
+      "C",
+      "Cocoa",
+      "Contribute",
+      "Cyber",
+      "Developer",
+      "Diagnose",
+      "Dust",
+      "Electrical Engineering",
+      "Git",
+      "Interface Builder",
+      "Objective-C",
+      "Prejudice",
+      "Pride",
+      "Python",
+      "Quick",
+      "Signal",
+      "Swift",
+      "Systems",
+      "UI",
+      "Video",
+      "Xcode"
+    ],
+    "education": [
+      {
+        "score": "",
+        "location": "    California",
+        "course": "",
+        "end-date": " 2011",
+        "institution-name ": "University  of   California",
+        "start-date": "",
+        "score-metric": ""
+      }
+    ],
+    "awards": []
+  },
+  "phone": [
+    "2133754026"
+  ],
+  "email": [
+    "danchhay@gmail.com"
+  ]
+}

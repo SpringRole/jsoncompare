@@ -1,0 +1,82 @@
+{
+	"phone": [
+		"8589979245"
+	],
+	"sections": {
+		"skills": [
+			"APACHE",
+			"CASSANDRA",
+			"MYSQL",
+			"CDN",
+			"AMAZON CLOUD FRONT",
+			"MS OFFICE",
+			"HLS",
+			"DASH",
+			"CSS",
+			"JSON",
+			"RUBY"
+		],
+		"education": [{
+				"score": "",
+				"location": "New York",
+				"course": "Master of Fine Arts in Photography",
+				"end-date": "",
+				"institution-name ": "The School of Visual Arts",
+				"start-date": "",
+				"score-metric": ""
+			},
+			{
+				"score": "",
+				"location": " Durham",
+				"course": "Bachelor of Arts,,Public  Policy Studies",
+				"end-date": "",
+				"institution-name ": "Duke University",
+				"start-date": "",
+				"score-metric": ""
+			}
+		],
+
+
+		"work-experience": [{
+				"company-name": "CREATIVE ARTISTS AGENCY, Beverly Hills, CA",
+				"start-date": "2002",
+				"end-date": "2004",
+				"job-desctiption": "Gained experience within all company divisions; Film, Television, Talent,Business Affairs, New Media,Literary and Marketing.+ Managed cross-­‐divisional team to execute a Halo video game tournament, promoting the IP to 60 studio executives, writers, producers, talent, and video game developers.Collaboratively produced the national Sprite Liquid Mix tour’s website with artists' management,corporate sponsors, and development teams http://gameinfowire.com/news.asp?nid=2821 ",
+				"designation": "Video Game Assistant"
+			},
+			{
+				"company-name": "Square einx Inc., Bellevue",
+				"start-date": "2004",
+				"end-date": "2005",
+				"job-description": "responsible for identifying developing relationship and legal agreement between 15 European and American 3rd party developers for a Japanese mobile contest.",
+				"designation": "  Senior product manager"
+			},
+
+			{
+				"company-name": "OC&C STRATEGY, New York, NY",
+				"start-date": "2008",
+				"end-date": "2009",
+				"job-desctiption": "Conducted due diligence of consumer electronics and apparel retailers for private equity clients ",
+				"designation": " Associate Consultant"
+			},
+			{
+				"company-name": "BBDO,San Francisco, CA and New York, NY",
+				"start-date": "2009",
+				"end-date": "2011",
+				"job-desctiption": "Led social media analytics practice for brands, measuring community growth and engagement⋅Executed campaign to drive awareness of brand 's social initiatives on mobile and social media. Managed Johnson & Johnson accounts, executing multi-million dollar campaigns acrossdigital,broadcast,and print;efforts led to rapid promotion ",
+				"designation": "Digital Strategist,Account Executive"
+			}
+		],
+
+		"summary": "",
+		"introduction": "",
+		"awards": [],
+		"achievements": [],
+		"projects": [],
+		"misc": []
+	},
+	"name": "ANAR JOSHI",
+	"email": [
+		"anar915@gmail.com"
+	]
+}
