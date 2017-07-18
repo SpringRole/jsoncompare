@@ -36,8 +36,10 @@ def compare(a, b):
 
 
 if __name__ == "__main__":
-    file1 = sys.argv[1]  # target json
-    file2 = sys.argv[2]  # output json
+    # target json
+    file1 = sys.argv[1]
+    # output json
+    file2 = sys.argv[2]
     with open(file1) as f:
         a = json.load(f)
     with open(file2) as f:
