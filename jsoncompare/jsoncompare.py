@@ -14,7 +14,7 @@ def _is_dict_same(expected, actual):
         if key not in actual.keys():
             if isinstance(expected[key], str):
                 miss += 1
-                print("Missing :", key, "\n")
+                print(" Missing :", key, "\n")
                 actual_match.append(0)
             else:
                 miss += len(expected[key])
