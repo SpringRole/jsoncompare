@@ -1,0 +1,86 @@
+{
+  "phone": [
+    "254547632"
+  ],
+  "sections": {
+"introduction":"",    
+"skills": [
+      "Pyhon",
+      "Ruby",
+      "PHP",
+      "SQL",
+      "Javascript",
+      "HTML5",
+      "CSS",
+      "DevOps",
+      "Testing",
+      "RUBY"
+    ],
+    "education": [
+{
+                "score": "",
+                "location": "Irvine California",
+                "course": "M.F.A. in Creative Writing",
+                "end-date": "2003",
+                "institution-name ": "University of California Irvine",
+                "start-date": "",
+                "score-metric": ""
+            },
+            {
+                "score": "",
+                "location": " San Diego",
+                "course": "M.A. in English Literature",
+                "end-date": "2000",
+                "institution-name ": "University of California San Diego",
+                "start-date": "",
+                "score-metric": ""
+            },
+{
+                "score": "",
+                "location": "California",
+                "course": "Computer Science",
+                "end-date": "2000",
+                "institution-name ": "Santa Ana College",
+                "start-date": "",
+                "score-metric": ""
+            }
+    ],
+"projects":[],
+"achievements":[],
+"extra-curricular": [],
+    "work-experience": [
+      {
+        "company-name": "First American Corporation, California",
+        "start-date": "Sept '12",
+        "end-date": "present",
+        "job-desctiption": "As senior developer, led design and implementation of enterprise infrastructure responsiblefor processing over $1 billion daily in financial transactions.Split duties evenly between backend and frontend development, overseeing redesigns of company’s two major public-facing websites: the CMS-backed official website and the Banking division’s mission critical online banking application. Spearheaded transition to more modern development environment adopting tools like distributed version control, static analysis, and continuous integration to ease development and improve productivity.",
+        "designation": "Senior Applications Developer"
+      },
+      {
+        "company-name": "Computer Specialists, Inc. California",
+        "start-date": "Oct '04",
+        "end-date": "Oct '07",
+        "job-description": "Consulted for clients on website projects drawing up proposals, negotiating contracts, and authoring specs. Updated legacy scheduling and accounting system to optimize scheduling process and increase billable hours. Redeveloped company’s intranet site around PHP open source solutions and integrated it with existing management system to significantly improve office workflow.",
+        "designation": "Web Developer"
+      },
+      {
+        "company-name": "Klenwell Design, California",
+        "start-date": "Sept '00",
+        "end-date": "Oct '04",
+        "job-desctiption": "Contracted as designer and developer specializing in dynamic, standards-compliant websites for the LAMP platform. Implemented several popular open source frameworks, including Drupal, Joomla, Wordpress, and Mediawiki.",
+        "designation": " Web Developer"
+      }
+    ],
+    "projects": [
+      "Github",
+      "Stack Overflow"
+    ],
+    "summary": "An experienced developer with a wide range of project experience, strong design sense, and a knack for problem-solving, I am looking for a permanent position as a senior developer or technical manager with a progressive company that appreciates the work of thoughtful professionals.",
+"awards":[],
+"misc":[]
+  },
+  "name": "Tom Atwell",
+  "email": [
+    "tatwell@gmail.com@gmail.com"
+  ]
+}

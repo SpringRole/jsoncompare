@@ -1,62 +1,62 @@
 {
   "phone": [
-    "3129784373"
+    "(312)-978-4373"
   ],
-  "achievements": "Convened a national level competition for National Entrepreneurship Network and conducted awareness events for schools and society. Coordinated various talk shows to support Go-Green theme in Bhopal. Active member of Career management Groups to facilitate campus recruiting in RGPV, Bhopal.",
+  "achievements": " Convened a national level competition for National Entrepreneurship Network and conducted awareness events for schools and society. Coordinated various talk shows to support Go-Green theme in Bhopal. Active member of Career management Groups to facilitate campus recruiting in RGPV, Bhopal.",
   "skills": [
-    "sql",
+    "SQL",
     "pl/sql",
-    "mysql",
+    "MySQL",
     "C++",
-    "html",
-    "css",
+    "HTML",
+    "CSS",
     "R  Tools: Oracle 11g",
     "load runner",
-    "qtp",
-    "selenium",
-    "qc",
-    "toad",
-    "maximo",
-    "birt"
+    "QTP",
+    "Selenium",
+    "QC",
+    "Toad",
+    "Maximo",
+    "BIRT"
   ],
   "education": [
     {
       "score": "3.90/4.0",
-      "location": " Chicago",
+      "location": "Chicago",
       "course": "Masters in Information Technology and Management",
-      "institution-name ": "Illinois Institute of Technology",
-      "start-date": " 2014",
-      "score-metric": "GPA",
-      "end-date": " 2015"
+      "institution_name ": "Illinois Institute of Technology",
+      "start_date": "2014",
+      "score_metric": "GPA",
+      "end_date": "2015"
     },
     {
       "score": "",
       "location": "India",
       "course": "Bachelor of Engineering in Computer Science",
-      "institution-name ": "Rajiv Gandhi Proudyogiki Vishwavidhyalaya",
-      "start-date": " 2006",
-      "score-metric": "",
-      "end-date": " 2010"
+      "institution_name ": "Rajiv Gandhi Proudyogiki Vishwavidhyalaya",
+      "start_date": "2006",
+      "score_metric": "",
+      "end_date": "2010"
     }
   ],
   "projects": [
     {
       "description": "Created  a relational  database  for  an  e-commerce  store  to  execute  SQL  queries  for  deep  customer  insights",
-      "start-date": "",
-      "project-name": "E-commerce Querier",
-      "end-date": ""
+      "start_date": "",
+      "project_name": "E-commerce Querier",
+      "end_date": ""
     },
     {
       "description": "Created  a coffee  shop  E-commerce  website  using  HTML5,  CSS",
-      "start-date": "",
-      "project-name": "Barista",
-      "end-date": ""
+      "start_date": "",
+      "project_name": "Barista",
+      "end_date": ""
     },
     {
       "description": "Developed  risk  management  plan,  analyzed  workloads  and  created  work  breakdown  structure  for  a case  study  on  failures  of  MotoX",
-      "start-date": "",
-      "project-name": "Moto Alert",
-      "end-date": ""
+      "start_date": "",
+      "project_name": "Moto Alert",
+      "end_date": ""
     }
   ],
   "awards": "",
@@ -66,63 +66,45 @@
       "twitter": "",
       "linkedin": "",
       "facebook": "",
-      "others": [
-
-      ]
+      "others": []
     },
-    "name": "Ayushi Jain",
+
     "address": {
       "postcode": "90012",
       "city": "la",
-      "road": "s figueroa",
       "country": "",
-      "house_number": "123",
-      "unit": "apt #433"
+      "state":""
     }
   },
-  "extra-curricular": "",
-  "work-experience": [
+  "extra_curricular": "",
+  "work_experience": [
     {
-      "company-name": "Tata Consultancy Services, Mumbai, India",
-      "start-date": "Oct'10",
-      "end-date": "Dec'11",
-      "job-description": " Worked as an Oracle Database Administrator and covered tasks from design to maintenance Interacted with clients on-site to successfully install, monitor, manage and test their databases  Participated in disaster recovery drill and setup dataguard as a part of business continuity plan ",
-      "designation": " Assistant Systems Engineer"
-    },
-    {
-      "company-name": "Sodexo, Lighthouse Technology Services, Buffalo, NY",
-      "start-date": "Nov'15",
-      "end-date": "Present",
-      "job-description": "Performed impact analysis and developed testing and migration documents for enhancements and change requests for multiple clients of IBM Maximo  Created QBR reports for change requests and enhancements to help business personnel analyze performance matrix.",
+      "company_name": "Sodexo, Lighthouse Technology Services, Buffalo, NY",
+      "start_date": "Nov'15",
+      "end_date": "Present",
+      "job_description": "Performed impact analysis and developed testing and migration documents for enhancements and change requests for multiple clients of IBM Maximo  Created QBR reports for change requests and enhancements to help business personnel analyze performance matrix.",
       "designation": "System Analyst"
     },
     {
-      "company-name": "Office of Graduate Admissions, IIT, Chicago.us",
-      "start-date": "Sep'14",
-      "end-date": "Aug'15",
-      "job-description": "Implemented an incident management system within a cloud-based enterprise CRM software Automated data manipulations using built-in system administrative functions and custom code(Apex)  Prepared test scenarios and test cases for the incident management system ",
+      "company_name": "Office of Graduate Admissions, IIT, Chicago.us",
+      "start_date": "Sep'14",
+      "end_date": "Aug'15",
+      "job_description": "Implemented an incident management system within a cloud-based enterprise CRM software Automated data manipulations using built-in system administrative functions and custom code(Apex)  Prepared test scenarios and test cases for the incident management system ",
       "designation": "Junior Systems Analyst"
     },
     {
-      "company-name": "Persistent Systems Limited, Pune, India",
-      "start-date": "Feb'13",
-      "end-date": "Dec'13",
-      "job-description": "Prepared test cases, test plan, RTM and test scripts in Bash by following Agile methodology Analyzed requirements and functional specifications for change requests for Openwave Messaging tool  Performed  functional and system Testing  Reduced resolution time of open tickets in JIRA by 31%  Performed load and performance testing using  (Pacmon) ",
+      "company_name": "Persistent Systems Limited, Pune, India",
+      "start_date": "Feb'13",
+      "end_date": "Dec'13",
+      "job_description": "Prepared test cases, test plan, RTM and test scripts in Bash by following Agile methodology Analyzed requirements and functional specifications for change requests for Openwave Messaging tool  Performed  functional and system Testing  Reduced resolution time of open tickets in JIRA by 31%  Performed load and performance testing using  (Pacmon) ",
       "designation": "  Quality Assurance Analyst"
-    }
-  ],
-  "projects": [
-    {
-      "project-name": "E-commerce Querier",
-      "description": "Created a relational database for an e-commerce store to execute SQL queries for deep customer insights "
     },
-    {
-      "project-name": "Barista",
-      "description": "Created  a coffee shop E-commerce website using HTML5, CSS "
-    },
-    {
-      "project-name": "Moto Alert",
-      "description": "Developed risk management plan, analyzed workloads and created work breakdown structure for a case study on failures of MotoX"
+     {
+      "company_name": "Tata Consultancy Services, Mumbai, India",
+      "start_date": "Oct'10",
+      "end_date": "Dec'11",
+      "job_description": " Worked as an Oracle Database Administrator and covered tasks from design to maintenance Interacted with clients on-site to successfully install, monitor, manage and test their databases  Participated in disaster recovery drill and setup dataguard as a part of business continuity plan ",
+      "designation": " Assistant Systems Engineer"
     }
   ],
   "summary": [],

@@ -55,3 +55,5 @@ docs/_build/
 #gedit
 *~
 result.csv
+evaluator/output/.DS_Store
+evaluator/target/.DS_Store
