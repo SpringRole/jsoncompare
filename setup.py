@@ -2,6 +2,7 @@
 
 from setuptools import setup
 
+
 def read_readme(fname):
     try:
        import pypandoc
@@ -11,12 +12,12 @@ def read_readme(fname):
 
 
 setup(
-    name = 'jsoncompare',
-    version = '0.1.2',
-    description = 'Json comparison tool',
-    author = 'Daniel Myers',
-    author_email = 'dmandroid88@gmail.com',
-    url = 'https://github.com/dandroid88/jsoncompare',
+    name = 'json-evaluator',
+    version = '0.1',
+    description = 'Json Evaluation tool',
+    author = 'SpringRole',
+    author_email = '',
+    url = '',
     packages = ['jsoncompare', 'jsoncompare.test'],
     test_suite = "jsoncompare.test.test_jsoncompare",
     keywords = 'json comparison compare order',
