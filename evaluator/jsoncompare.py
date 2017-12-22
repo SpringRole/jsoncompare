@@ -157,22 +157,22 @@ def _are_same(expected, actual):
     return False
 
 
-def are_same(original_a, original_b):
-    global hit, miss, actual_match
-    a = original_a
-    # b = original_b
-    # original_a['work_experience'].sort(key=operator.itemgetter('start_date'))
-    # original_b['work_experience'].sort(key=operator.itemgetter('start_date'))
-    # a = original_aHahaha
-    # b = original_b
+def sort_dict(a, b):
     outer_keys = a.keys()
     for outer_key in outer_keys:
-        print(outer_key)
-    print("*" * 40)
-    if isinstance(a[outer_key],list):
-        print("aaa")
+        if isinstance(a[outer_key], list):
+            for x in range(0, len(a[outer_key])):
+                if isinstance((a[outer_key][x]), dict):
+                    key_to_sort_with = list(a[outer_key][x].keys())[0]
+                    a[outer_key].sort(key=operator.itemgetter(key_to_sort_with))
+                    b[outer_key].sort(key=operator.itemgetter(key_to_sort_with))
+    return a, b
 
-    # return _are_same(a, b), ("miss", miss), ("hit", hit), actual_match
+
+def are_same(original_a, original_b):
+    global hit, miss, actual_match
+    a, b = sort_dict(original_a, original_b)
+    return _are_same(a, b), ("miss", miss), ("hit", hit), actual_match
 
 
 def json_are_same(a, b):
